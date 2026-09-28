@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pc Imm Pandeglang | KeIMMan</title>
+    <link rel="icon" href="img/logo17.jpg" type="image/jpeg">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"><script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- leader -->
+	<div class="bg-loader">
+		<div class="loader"></div>
+	</div>
+
+    <!-- header -->
+    <div class="medsos">
+    	<div class="container">
+    		<ul>
+    			<h3><a href="#" onclick="klikFB()"><i class=""> </i></a>
+    			<a href="#" onclick="klikIG()"><i class="fab fa-instagram">https://www.instagram.com/imm_pandeglang</i></a>
+    			<a href="#" onclick="kliktiktok()"><i class=""> </i></a>
+    			<a href="#" onclick="klikWA()"><i class="fab fa-whatsapp"> https://wa.me/6282113610704/</i></a>
+
+    <!-- JavaScript -->
+<script>
+ 	function klikFB() {
+   	 window.open("/", "_blank");
+ 	 }
+ 	  function klikIG() {
+   	 window.open("https://www.instagram.com/imm_pandeglang/", "_blank");
+ 	 }
+ 	 function klikWA() {
+   	 window.open("https://wa.me/6282113610704/", "_blank");
+ 	 }
+ 	 function kliktiktok() {
+   	 window.open("", "_blank");
+ 	 }
+	</script>
+    		</ul>
+    	</div>
+    </div>
+    <header>
+    		<div class="container">
+    	    	<h1><a href="index.html"></h1>
+    	    	<ul>
+    		     	<li><a href="beranda.html">BERANDA</a></li>
+    		     	<li><a href="sejarah.html">SEJARAH IMM</a></li>
+    		     	<li><a href="dokumentasi.html">DOKUMENTASI KEGIATAN IMM</a></li>
+					<li><a href="berita.html">BERITA/INFORMASI</a></li>
+                     <li><a href="lagu perjuangan.html">LAGU PERJUANGAN</a></li>
+    		     	<li><a href="lokasi.html">CONTACT/LOKASI</a></li>
+    	    	</ul>
+        	</div>
+    </header>
+
+
+   <!-- label -->
+    <section class="label">
+    	<div class="container">
+    		<h1>DOKUMENTASI KEGIATAN</h1>
+    	</div>
+    </section>
+
+  	<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumentasi Kegiatan IMM</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            color: #222;
+        }
+
+        /* ================= TOP BAR ================= */
+        .top-bar {
+            height: 38px;
+            background-color: #ffff00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .top-bar a {
+            color: #111;
+            text-decoration: none;
+        }
+
+        /* ================= NAVBAR ================= */
+        .navbar {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 45px;
+            align-items: center;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #111;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: #14957f;
+        }
+
+        /* ================= HEADER ================= */
+        .header {
+            height: 137px;
+            background-color: #15947f;
+            display: flex;
+            align-items: center;
+        }
+
+        .header h1 {
+            width: 80%;
+            margin: auto;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        /* ================= DOKUMENTASI ================= */
+        .dokumentasi {
+            width: 85%;
+            max-width: 1200px;
+            margin: 70px auto;
+        }
+
+        .judul {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .judul h2 {
+            color: #15947f;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .judul p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        /* ================= GALERI ================= */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .gallery-item {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+            transition: 0.3s;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            display: block;
+            cursor: pointer;
+        }
+
+        .caption {
+            padding: 18px;
+            text-align: center;
+        }
+
+        .caption h3 {
+            color: #15947f;
+            font-size: 18px;
+            margin-bottom: 7px;
+        }
+
+        .caption p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        /* ================= MODAL FOTO ================= */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.85);
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .modal img {
+            max-width: 90%;
+            max-height: 85%;
+            border-radius: 8px;
+            box-shadow: 0 0 25px rgba(255,255,255,0.2);
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: white;
+            font-size: 45px;
+            cursor: pointer;
+        }
+
+        /* ================= FOOTER ================= */
+        footer {
+            background-color: ;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 80px;
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media (max-width: 900px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .navbar ul {
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .top-bar {
+                font-size: 11px;
+                gap: 8px;
+            }
+
+            .navbar {
+                height: auto;
+                padding: 20px 10px;
+            }
+
+            .navbar ul {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .header {
+                height: 110px;
+            }
+
+            .header h1 {
+                font-size: 25px;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-item img {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- ================= GALERI ================= -->
+    <section class="dokumentasi">
+
+        <div class="judul">
+            <h2><u>Dokumentasi Kegiatan IMM</u></h2>
+            <p>
+                Kumpulan foto kegiatan Ikatan Mahasiswa Muhammadiyah (IMM)
+            </p>
+        </div>
+
+
+        <div class="gallery">
+
+            <!-- FOTO 1 -->
+            <div class="gallery-item">
+                <a href=""
+   target="_blank"
+   class="btn-baca"></a>
+                <img src="img/imm12.webp"
+                     alt="Kegiatan IMM"
+                     onclick="openModal(this.src)">
+
+                <div class="caption">
+                    <h3><u>PERKADERAN IMM PANDEGLANG</u></h3>
+                    <p>Ikatan Mahasiswa Muhammadiyah (IMM) Kabupaten Pandeglang menggelar Darul Arqom Dasar (DAD) di Villa Merah, Labuan, Kabupaten Pandeglang, Sabtu (1/11/2025). Kegiatan yang berlangsung selama dua hari ini menjadi gerbang awal pembentukan kader intelektual dan sosial yang berintegritas.
+                    DAD merupakan agenda wajib bagi mahasiswa baru yang ingin menjadi bagian dari IMM. Melalui pengkaderan ini, peserta dibekali nilai-nilai ideologis, intelektual, dan kepemimpinan agar siap berperan dalam kehidupan kampus dan masyarakat.</p>
+                </div>
+            </div>
+
+
+            <!-- FOTO 2 -->
+            <div class="gallery-item">
+                <img src="img/imm13.webp"
+                     alt="Kegiatan IMM"
+                     onclick="openModal(this.src)">
+
+                <div class="caption">
+                    <h3><u>PC IMM Kabupaten Pandeglang Lantik Pengurus Komisariat UMB Cabang Pandeglan</u></h3>
+                    <p>Pimpinan Komisariat (PK) Ikatan Mahasiswa Muhammadiyah (IMM) Universitas Muhammadiyah Banten (UMB) Cabang Pandeglang menggelar pelantikan.
+                    Pada pelantikan PK IMM UMB Kabupaten Pandeglang ini mengangkat tema "Menumbuhkan Kinerja dan Semangat Baru serta Kesadaran dalam Berorganisasi".
+                    Tema ini diangkat berdasarkan kesepakatan panitia dan pengurus PK IMM UMB Kabupaten Pandeglang demi progresifitas kedepannya. Hal itu disampaikan oleh Ketua Pelaksana Nurhadi dalam sambutannya bahwa tema ini diangkat demi progresifitas PK IMM UMB cabang Pandeglang.
+                    "Kami sepakat dengan diangkatnya tema ini dengan harapan bahwa PK IMM UMB cabang Pandeglang yang dilantik kedepannya mampu menjadi komisariat yang progres dalam menjalankan kinerja organisasi dengan selalu semangat".
+                Adapun pelantikan PK IMM UMB cabang Pandeglang ini pada hari Kamis, 03 November 2022 yang bertempat Aula SMK Muhammadiyah Menes.</p>
+                </div>
+            </div>
+
+
+            <!-- FOTO 3 -->
+            <div class="gallery-item">
+                <img src="img/imm14.webp"
+                     alt="Kegiatan IMM"
+                     onclick="openModal(this.src)">
+
+                <div class="caption">
+                    <h3><u>Kegiatan IMM Pandeglang Santuni Panti Asuhan Hasanuddin</u></h3>
+                    <p>Pimpinan Cabang Ikatan Mahasiawa Muhammadiyah (PC IMM) Pandeglang.  Santuni panti asuhan hasanuddin sekaligus Silaturahim Muhammadiyah Pandeglang di Mesjid Hasanuddin Kuranten, Pandeglang pada Senin(19/6).
+                    Ketua pelaksana, IMMawan Muan mengatakan bahwa bantuan kepada puluhan anak yatim ini merupakan sebuah pengabdian dan pengalaman sebagai umat Islam dimana anak yatim wajib kita santuni.</p>
+                    <p>Lanjut Muan bahwa acara ini juga bertujuan untuk mempererat ukhuwah dan silaturahim Warga Muhammadiyah. “Kita berharap semoga bulan suci Ramadhan ini, banyak amalan dan ibadah sunnah yang kita lakukan secara rutin,” jelas Muan.
+
+                    Sementara Nurman Ketua PC IMM Pandeglang menyampaikan dalam sambutannya kepada Angkatan Muda Muhammadiyah Pandeglang bahwa banyak hal yang bisa kita lakukan untuk beramal dan berbuat baik terhadap sesama. Melakukan kebaikan bukan hanya sekedar berbicara atau jadi penceramah di mimbar-mimbar. Tapi pada setiap sendinya kebaikan itu bermanfaat dan kembali kepada orang yang senantiasa berbuat baik.
+
+                    “Semoga niat baik kita melalui kegiatan sosial pada hari ini diridhoi Allah SWT dan Warga Muhammadiyah Pandeglang dapat lebih bersinergi kedepannya dalam menebar lebih banyak kebaikan bagi lingkungan dan masyarakat Pandeglang,” tutur Nurman.
+
+                    Adapun acara yang dimulai dari pukul 15.00 WIB menghadirkan puluhan dari Warga Muhammadiyah Pandeglang. Terdiri dari Angkatan Muda Muhammadiyah (AMM). Pimpinan Daerah Muhammadiyah (PDM). Dan Ayisiyah Pandeglang. Serta Anak Panti Asuhan Hasanuddin Pandeglang.(*)</p>
+                </div>
+            </div>
+
+
+            <!-- FOTO 4 -->
+            <div class="gallery-item">
+                <img src="img/imm15.jpg"
+                     alt="Kegiatan IMM"
+                     onclick="openModal(this.src)">
+
+                <div class="caption">
+                    <h3><u>Pengukuhan Pimpinan Cabang IMM Pandeglang</u></h3>
+                    <p>Selamat & Sukses Atas Pengukuhan Pimpinan Cabang
+                        Ikatan Mahasiswa Muhammadiyah (IMM) Kab. Pandeglang Periode 2025/2026
+                        Semoga amanah ini dapat dijalankan dengan penuh integritas, semangat juang, serta membawa IMM semakin unggul dalam moral, intelektual, dan kontribusi nyata bagi umat dan bangsa.</p>
+                </div>
+            </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+   
+  		<!-- footer -->
+  	<footer>
+  		<div class="container">
+  		<small>Copyright &copy; 2025/2026 - PcImmPandeglang</small>
+  			<h3><a href="#" onclick="klikIG()"><i class="fab fa-instagram"> https://www.instagram.com/imm_pandeglang</i></a></h3>
+    		<h3><a href="#" onclick="klikWA()"><i class="fab fa-whatsapp"> https://wa.me/6282113610704/</i></a></h3>
+    			
+  		</div>
+  	</footer>
+
+
+  	<script type="text/javascript">
+  		$(document).ready(function(){
+  			$(".bg-loader").hide();
+  		})
+  	</script>
+</body>
+</html>
+
